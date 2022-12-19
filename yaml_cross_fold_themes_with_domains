@@ -1,0 +1,31 @@
+--- 
+appBinary: /Applications/PyMOL.app
+appCaption: "Show in PyMol"
+appContext: edge
+dataMatrixFile: /Users/kaiyuqiu/Downloads/for_cy2str/for_cy2str/cy2str_edge_data
+suffix: pml
+scriptLines: |
+    cd %dir%
+    load pdbs/%domain1%.pdb
+    load pdbs/%domain2%.pdb
+    hide lines, %domain1%
+    show cartoon, %domain1%
+    hide lines, %domain2%
+    show cartoon, %domain2%
+    select t1, none
+    %H_START%
+    select t1, t1 or (%domain1% and n. CA and resi %ranges1% )
+    %H_END%
+    color red, t1
+    select t2, none
+    %H_START%
+    select t2, t2 or (%domain2% and n. CA and resi %ranges2% )
+    %H_END%
+    color red, t2
+    super t1, t2, object=aln
+    bg_color white
+    hide all
+    show cartoon
+    center
+    set seq_view, on
+type: script
