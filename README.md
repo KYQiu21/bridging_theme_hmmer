@@ -4,9 +4,8 @@ This is the bridging theme dataset and releated scripts of this paper: [Similar 
 
 ## Description
 
-The dataset is organized in Cytoscape and our pluggin [CyToStruct](https://www.sciencedirect.com/science/article/pii/S0969212615000763) for launching external apps (such as PyMOL and BioEdit) for nodes/edges. 
+The dataset is organized in Cytoscape and our pluggin [CyToStruct](https://www.sciencedirect.com/science/article/pii/S0969212615000763) for launching external apps (such as PyMOL and BioEdit) for nodes/edges. Below are one-to-one explanations about files in this repo.
 
-Below are one-to-one explanations about files in this repo.
 
 **yaml_cross_fold_themes_with_domains**: YAML script for the configuration of Cytoscape/CyToStruct networks.
 
@@ -25,6 +24,7 @@ Below are one-to-one explanations about files in this repo.
 **cy2str_asdb.zip**: Directory containing sequence alignments of each bridging theme pair.
 
 **pdbs.zip**: Directory containing all ECOD PDB files involved in this dataset.
+
 
 ## Usage
 
