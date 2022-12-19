@@ -10,7 +10,7 @@ The dataset is organized in Cytoscape and our pluggin [CyToStruct](https://www.s
 
 **optAlign.py**: Python script for structure alignment.
 
-**overview.cys**: Overview Cytoscape network file of all bridging themes(Fig. 1 of the paper).
+**overview.cys**: Overview Cytoscape network file of all bridging themes (Fig. 1 of the paper).
 
 **hmmer_bridging_themes.cys**: Cytoscape network file with each X-group pair separated. 
 
