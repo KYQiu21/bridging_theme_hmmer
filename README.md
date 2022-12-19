@@ -1,6 +1,6 @@
 # HMMER Bridging Theme Dataset
 
-This is the bridging theme dataset and releated scripts of this paper: [Similar protein segments shared between domains of different evolutionary lineages. Qiu, K., Ben‐Tal, N., & Kolodny, R. (2022). Protein Science, 31(9), e4407.](https://onlinelibrary.wiley.com/doi/10.1002/pro.4407)
+This is the bridging theme dataset and releated scripts of this paper: [Similar protein segments shared between domains of different evolutionary lineages. Qiu, K., Ben‐Tal, N., & Kolodny, R. (2022). Protein Science, 31(9), e4407.](https://onlinelibrary.wiley.com/doi/10.1002/pro.4407) For any questions, please contact <kaiyuqiu4@gmail.com> for help.
 
 ## Description
 
@@ -26,11 +26,13 @@ The dataset is organized in Cytoscape and our pluggin [CyToStruct](https://www.s
 
 ## Usage
 
-To play with this dataset, CyToStruct application should be installed in Cytoscape at first. For any questions, please contact <kaiyuqiu4@gmail.com> for help.
+To play with this dataset, CyToStruct application should be installed in Cytoscape at first. 
 
 To look into a specific bridging theme pair in the network, you should:
 1. Configure Cytoscape with the YAML script *yaml_cross_fold_themes_with_domains* (Apps -> Configure CyToStruct -> load file, please revise the YAML script according to this [tutorial](https://bitbucket.org/sergeyn/cytostruct/wiki/Home)).
 2. For a specific bridging theme (an edge in the network), right-click the edge and go to PyMOL/BioEdit to see the structure and sequence alignment.  
+
+
 
 
 
