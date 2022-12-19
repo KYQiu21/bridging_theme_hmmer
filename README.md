@@ -24,7 +24,7 @@ The dataset is organized in Cytoscape and our pluggin [CyToStruct](https://www.s
 
 ## Usage
 
-To play with this dataset, CyToStruct application should be installed in Cytoscape at first. 
+To play with this dataset, CyToStruct application should be installed in Cytoscape at first. For any questions, please contact <kaiyuqiu4@gmail.com> for help.
 
 To look into a specific bridging theme pair in the network, you should:
 1. Configure Cytoscape with the YAML script *yaml_cross_fold_themes_with_domains* (Apps -> Configure CyToStruct -> load file, please revise the YAML script according to this [tutorial](https://bitbucket.org/sergeyn/cytostruct/wiki/Home)).
