@@ -6,6 +6,8 @@ This is the bridging theme dataset and releated scripts of this paper: [Similar 
 
 The dataset is organized in Cytoscape and our pluggin [CyToStruct](https://www.sciencedirect.com/science/article/pii/S0969212615000763) for launching external apps (such as PyMOL and BioEdit) for nodes/edges. 
 
+Below are one-to-one explanations about files in this repo.
+
 **yaml_cross_fold_themes_with_domains**: YAML script for the configuration of Cytoscape/CyToStruct networks.
 
 **optAlign.py**: Python script for structure alignment.
