@@ -20,7 +20,9 @@ The dataset is organized in Cytoscape and our pluggin [CyToStruct](https://www.s
 
 **cy2str_edge_data(_pval_10-3)**: Table of detected bridging theme including egde name, ECOD domain 1, ECOD domain 2, residue range 1, residue range 2, sequence similarity and identity (with 1e-3 as the threshold of E-value). 
 
-**cy2str_asdb**: Directory containing sequence alignments of each bridging theme pair.
+**cy2str_asdb.zip**: Directory containing sequence alignments of each bridging theme pair.
+
+**pdbs.zip**: Directory containing all ECOD PDB files involved in this dataset.
 
 ## Usage
 
